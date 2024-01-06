@@ -16,9 +16,11 @@
 title: Personal page
 email: wanght@pku.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
-My pages
-## twitter_username: username
-github_username: whaitian
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+twitter_username: username
+github_username: username
 minimal_mistakes_skin: default
 search: true
 
@@ -58,20 +60,32 @@ plugins:
 author:
   name   : "Haitian Wang"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My research interest mainly is gravitational wave data analysis."
+  bio    : "My research interest mainly focus on GW data analysis."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://whaitian.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/whaitian"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 footer:
   links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/whaitian"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -84,7 +98,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
